@@ -17,8 +17,7 @@ public class BaseTest {
 
 		@BeforeSuite
 		public void browserSetup() {
-			WebDriverManager.chromedriver().setup();
-			
+			WebDriverManager.chromedriver().setup();			
 		}
 		
 		@BeforeMethod
